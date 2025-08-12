@@ -42,7 +42,7 @@ export interface ProcessedRun {
   gamemode: Gamemode;
   trackType: TrackType;
   trackNum: number;
+  style: Style;
   time: number;
   splits: Splits;
-  flags: Style[];
 }
